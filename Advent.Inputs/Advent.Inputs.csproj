@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="Files\Day3.txt" />
+      <None Remove="Files\Day4.txt" />
+      <EmbeddedResource Include="Files\Day4.txt" />
+      <None Remove="Files\Day5.txt" />
+      <EmbeddedResource Include="Files\Day5.txt" />
+      <None Remove="Files\Day6.txt" />
+      <EmbeddedResource Include="Files\Day6.txt" />
+      <None Remove="Files\Day7.txt" />
+      <EmbeddedResource Include="Files\Day7.txt" />
+      <None Remove="Files\Day8.txt" />
+      <EmbeddedResource Include="Files\Day8.txt" />
+      <None Remove="Files\Day9.txt" />
+      <EmbeddedResource Include="Files\Day9.txt" />
+    </ItemGroup>
+
+</Project>
